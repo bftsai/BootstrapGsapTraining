@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+</head>
+<body>
+    <div class="bg-dark py-2">
+        <div class="container">
+            <ul class="d-flex list-unstyled justify-content-between mb-0">
+                <li>
+                    <a class="" style="text-decoration: none;" href="index.html">首頁</a>
+                </li>
+                <li>
+                    <a class="" style="text-decoration: none;" href="bootstrap.html">Bootstrap 5</a>
+                </li>
+                <li>
+                    <a class="" style="text-decoration: none;" href="gsap.html">GSAP</a>
+                </li>
+                <li>
+                    <a class="" style="text-decoration: none;" href="test.html">TEST</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bluebox box">
+
+    </div>
+    <div class="pinkbox box">
+
+    </div>
+    <div class="blackbox box">
+
+    </div>
+    <div class="greenbox box">
+        
+    </div>
+    <div class="bg-hex" style="height: 100vh;">
+
+    </div>
+    <div class="position-relative overflow-hidden" style="height: 100px;">
+        <div class="position-absolute lighterbox box text-center" style="line-height: 100px;">ScrollTrigger</div>
+        <div class="position-absolute yellowbox box text-center" style="line-height: 100px;">ScrollTrigger</div>
+    </div>
+    <div class="overflow-hidden">
+        <h1 class="text-center mb-0" style="font-size: 26px !important;">ScrollTrigger with Timeline</h1>
+    </div>
+
+    <div class="bg-light position-relative overflow-hidden" style="height: 600px;">
+        <div class="orangebox box d-flex justify-content-center align-items-center position-absolute z-1">
+            <p class="mb-0">pinning</p>
+        </div>
+        <div class="ghostbox box d-flex justify-content-center align-items-center">
+            <p class="mb-0">ghostbox</p>
+        </div>
+    </div>
+
+    <div class="bg-group overflow-hidden">
+        <div class="bg-purple bg">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <h2 class="mb-0 text-center">
+                    pinning start
+                    <br>
+                    page 1
+                </h2>
+            </div>
+        </div>
+        <div class="bg-lighter bg position-absolute w-100 start-0 top-0">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <h2 class="mb-0">
+                    page 2
+                </h2>
+            </div>    
+        </div>
+        <div class="bg-danger bg position-absolute w-100 start-0 top-0">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <h2 class="mb-0">
+                    page 3
+                </h2>
+            </div>    
+        </div>
+        <div class="bg-warning bg position-absolute w-100 start-0 top-0">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <h2 class="mb-0">
+                    page 4
+                </h2>
+            </div>    
+        </div>
+        <div class="bg-info bg position-absolute w-100 start-0 top-0">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <h2 class="mb-0 text-center">
+                    pinning over
+                    <br>
+                    page 5
+                </h2>
+            </div>    
+        </div>
+
+    </div>
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- pages js -->
+    <script src="./js/gsap.js"></script>
+</body>
+</html>

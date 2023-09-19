@@ -1,0 +1,6 @@
+.btn-customer-hex{
+    @include button-variant(#69F0AE, #69F0AE);
+}
+.btn-customer-outline-hex{
+    @include button-outline-variant(#69F0AE);
+}

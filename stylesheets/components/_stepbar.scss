@@ -1,0 +1,44 @@
+.stepbar{
+    // 原則１：避免過多層級，意即不要過度巢狀撰寫scss 
+    // 原則２：盡可能使用變數，如：$primary、$white、$size 
+    // 原則３：元件的狀態統一放最後，如：hover、active、focus 
+    
+    $size: 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &::after{
+        content: "";
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: lighten($primary, 20%);
+        transform: translateY(-50%);
+        position: absolute; 
+        z-index: -1;
+    }
+
+    .stepbar-item{
+        background-color:$primary;
+        width: $size;
+        height: $size;
+        border-radius: $size;
+        border: 1px solid $white;
+
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    //state
+    .stepbar-item.active{
+        box-shadow: 0 0 0 1px $primary;
+    }
+    //取代符號(~)是影響到後方同層級的全部元素
+    .stepbar-item.active ~ .stepbar-item{
+        background-color: $gray-500;
+    }
+}
