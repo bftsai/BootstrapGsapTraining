@@ -18,21 +18,13 @@ cd localFolder/BootstrapGsapTraining
 ```
 
 ## 📂&ensp;資料夾結構
-|-- assets  
+|-- BootstrapGaspTraining  
 |&emsp;&emsp;&emsp;|-- images  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- about  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- index  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- news  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- product  
+|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- components  
 |&emsp;&emsp;&emsp;|-- &emsp;&ensp;js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- about.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- collapse.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- collapse.js.map  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- faq.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- index.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- news.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- product.js  
-|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- swiper.test.js  
+|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- bootstrap.js  
+|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- gsap.js  
+|&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- test.js  
 |&emsp;&emsp;&emsp;|-- scss  
 |&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|- base  
 |&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;|&emsp;&emsp;|- _base.scss  
