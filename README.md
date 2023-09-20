@@ -1,7 +1,7 @@
 # Bootstrap Gsap Training ![Alt text](images/gsap-icon.png)  
 
 * [GitHub](https://github.com/bftsai/BootstrapGsapTraining)  
-* [gh-pages](https://bftsai.github.io/BootstrapGsapTraining/)  
+* [gh-pages](https://bftsai.github.io/BootstrapGsapTraining/pages/index.html)  
 
 ## 🕺&ensp;作者
   - [BF Tsai](https://github.com/bftsai)  
